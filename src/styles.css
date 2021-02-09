@@ -1,1 +1,120 @@
-/* You can add global styles to this file, and also import other style files */
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+.main-container {
+    padding-top: 25px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+}
+
+/* Sticky footer styles
+  -------------------------------------------------- */
+
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+    
+}
+@media screen and (max-width: 700px) {
+    #menu-entrar{
+        margin-bottom: 10px;
+    }
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+
+/* Sticky footer styles
+  -------------------------------------------------- */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    font-family: "Futura LT Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px;
+    margin-top: 30px;
+    /* Vertically center the text there */
+}
+:root {
+    --cor-padrao: #1a237e;
+    --cor-caixa-branca: #ffffff;
+    --cor-200: #e8eaf6;
+    --cor-400: #5c6bc0;
+    --cor-cinza: #757575;
+    --cor-accent: rgb(252, 45, 129);
+    --cor-ciano: #00B2A0;
+    --cor-vermelha: #e96d82;
+    --cor-angular: rgb(193, 0, 48);
+  
+    --margens-laterais-container: 25px;
+  
+    /* Cores das fontes */
+    --cor-titulo-pagina: rgba(0, 0, 0, 0.54);
+    --cor-titulo-card: rgba(0, 0, 0, 0.87);
+    --cor-label: var(--cor-titulo-card);
+    --cor-descricao: var(--cor-titulo-card);
+    --cor-texto-input: var(--cor-titulo-pagina);
+    --cor-texto-input: var(--cor-titulo-card);
+  
+    /*Fonte padrão*/
+    --fonte-padrao: "Futura LT Book", "Helvetica Neue", Helvetica, Arial,
+      sans-serif;
+    --fonte-tamanho-padrao: 13px;
+  
+    /* Margens */
+    --margem-botao-padrao: 20px;
+    --margen-top-form: 30px;
+  
+    /* Peso das fontes */
+    --fonte-regular: 400;
+    --fonte-medium: 500;
+    --fonte-bold: 700;
+  }
+
+input,
+select,
+file,
+textarea {
+    max-width: 400px;
+}

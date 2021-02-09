@@ -1,0 +1,27 @@
+<header>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow">
+        <div class="container">
+           
+                <a class="navbar-brand" href="/"><strong style="color: var(--cor-angular); font-size: 25px;">M</strong>arcos <strong style="color: var(--cor-angular);font-size: 25px;">P</strong>aulo</a>
+            <button class="navbar-toggler" type="button"  (click)="isCollapsed = !isCollapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse" [ngbCollapse]="isCollapsed" style="text-align: end;">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="https://www.linkedin.com/in/marcospaulogs/">
+                        <img src="../../../../assets/icons/linkedin.png" alt="linkedin" height="24px" width="24px">
+                        Linkedin
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="https://github.com/MarcosPGS">
+                            <img src="../../../../assets/icons/github.png" alt="github" height="24px" width="24px">
+                            GitHub
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
