@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { NgxSpinnerService } from 'ngx-spinner';
 import { Formacao } from '../../core/model/formacao';
-import { formacoes } from '../../core/model/formacaoArray'
+import { formacoes } from '../../core/model/formacaoArray';
 import { Experiencia } from '../../core/model/experiencia';
-import { experiencias } from '../../core/model/experienciaArray'
+import { experiencias } from '../../core/model/experienciaArray';
 
 
 @Component({
@@ -14,9 +14,9 @@ import { experiencias } from '../../core/model/experienciaArray'
 export class HomeComponent implements OnInit {
   formacoes: Formacao[] = [];
   experiencias: Experiencia[] = [];
-  perfil = '../../../assets/img/perfil.jpg'
-  linkedin = '../../../assets/icons/linkedin.png';
-  whatsapp = '../../../assets/icons/whatsapp.png';
+  perfil = 'assets/img/perfil.jpg';
+  linkedin = 'assets/icons/linkedin.png';
+  whatsapp = 'assets/icons/whatsapp.png';
   constructor(private spinner: NgxSpinnerService) { }
 
   ngOnInit(): void {
@@ -31,7 +31,7 @@ export class HomeComponent implements OnInit {
 
     this.formacoes = formacoes;
     this.experiencias = experiencias.reverse();
-    
+
   }
 
 }
