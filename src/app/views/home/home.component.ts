@@ -14,6 +14,7 @@ import { experiencias } from '../../core/model/experienciaArray'
 export class HomeComponent implements OnInit {
   formacoes: Formacao[] = [];
   experiencias: Experiencia[] = [];
+  perfil = '../../../assets/img/perfil.jpg'
   constructor(private spinner: NgxSpinnerService) { }
 
   ngOnInit(): void {
