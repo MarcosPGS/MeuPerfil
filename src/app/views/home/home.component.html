@@ -30,7 +30,7 @@
   <div class="nome">
     <span>Marcos Paulo</span>
     <div class="nome-dev">
-      <span>Desenvolvedor Front-End</span>
+      <span>Desenvolvedor Front-End ANGULAR 2+</span>
     </div>
   </div>
   <div class="card-descricao">
@@ -85,6 +85,87 @@
 
               Contato: (61) 9.9352-5885
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card-descricao">
+    <div class="row descricao card-container">
+      
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Habilidades,</h5>
+            <span>ANGULAR 2+, ANGULARJS, CSS, ECLIPSE, GIT,
+              HTML, HIBERNATE, JAVA, JAVASCRIPT, JPA, JUNIT,
+              MAVEN, REST, SQL, SPRINGBOOT, STUDIO CODE, TYPESCRIPT, 
+              TESTE UNITARIO ANGULAR 2+ (KARMA, JASMINE), VISUAL STUDIO CODE
+            </span>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="card-descricao">
+    <div class="row descricao card-container">
+      
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Personalidade,</h5>
+            <span>
+              COMPORTAMENTO, INTERDISCIPLINAR, TRABALHAR EM EQUIPE
+            </span>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card-descricao">
+    <div class="row descricao card-container">
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Experiência,</h5>
+
+            <div class="formacao" *ngFor="let objeto of experiencias">
+              <div class="div-interior">
+                <span class="title-formacao">{{objeto.nome}}</span>
+                <br>
+                <span>{{objeto.descricao}}</span>
+              </div>
+            </div>
+            
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card-descricao">
+    <div class="row descricao card-container">
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Formação,</h5>
+
+            <div class="formacao" *ngFor="let objeto of formacoes">
+              <div class="div-interior">
+                <span class="title-formacao">{{objeto.nome}}</span>
+                <br>
+                <span>{{objeto.descricao}}</span>
+              </div>
+            </div>
+            
+
           </div>
         </div>
       </div>

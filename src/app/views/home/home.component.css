@@ -49,9 +49,9 @@
     font-size: 15px;
     text-align: justify;
   }
-  .card-descricao{
+  /* .card-descricao{
     padding-bottom: 60px;
-  }
+  } */
   .row.descricao {
     padding-right: 60px;
     padding-left: 60px;
@@ -93,4 +93,16 @@
 }
 .btn-card{
   margin-right: 15px;
+}
+
+.title-formacao{
+  font-weight: bold !important;
+  color: var(--cor-cinza);
+}
+.formacao {
+  border-left: 3px solid var(--cor-angular);
+  margin-bottom: 20px;
+}
+.div-interior{
+  margin-left: 20px;
 }
