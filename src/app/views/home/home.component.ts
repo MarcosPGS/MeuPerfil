@@ -15,6 +15,8 @@ export class HomeComponent implements OnInit {
   formacoes: Formacao[] = [];
   experiencias: Experiencia[] = [];
   perfil = '../../../assets/img/perfil.jpg'
+  linkedin = '../../../assets/icons/linkedin.png';
+  whatsapp = '../../../assets/icons/whatsapp.png';
   constructor(private spinner: NgxSpinnerService) { }
 
   ngOnInit(): void {
