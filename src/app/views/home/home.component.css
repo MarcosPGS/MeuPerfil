@@ -93,6 +93,7 @@
 }
 .btn-card{
   margin-right: 15px;
+  width: 150px;
 }
 
 .title-formacao{
@@ -105,4 +106,13 @@
 }
 .div-interior{
   margin-left: 20px;
+}
+@media screen and (max-width: 600px) {
+  .btns_card {
+    display: flex;
+    flex-direction: column;
+  }
+  .btn-card {
+    margin-bottom: 5px;
+  }
 }
